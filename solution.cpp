@@ -19,13 +19,14 @@ bool solve()
 {
     ll n;
     cin >> n;
-    vector<ll> v(n);
+    
+
+    if(n%2==0)
+        return true;
  
-    for(ll i=0 ; i<n ; ++i) cin >> v[i];
  
  
- 
-    return true;    
+    return false;    
 }
  
 int main()
@@ -47,11 +48,11 @@ int main()
     {
         if(solve())
         {
-            // cout << "YES" << endl;
+            cout << "YES" << endl;
         }
         else
         {
-            // cout << "NO" << endl;
+            cout << "NO" << endl;
         }
     }
  
