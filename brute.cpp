@@ -20,12 +20,8 @@ bool solve()
     ll n;
     cin >> n;
     
-    // n == 2
-    if(n>2 && n%2==0)
+    if(n % 2 == 0 && n > 3)
         return true;
- 
- 
- 
     return false;    
 }
  
@@ -42,7 +38,7 @@ int main()
     #endif
  
     ll t=1;
-    cin >> t;
+    //cin >> t;
  
     while(t--)
     {
