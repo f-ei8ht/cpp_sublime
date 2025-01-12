@@ -5,7 +5,7 @@ for ((i=1; i<=1; i++)); do
     echo "=== STRESS TEST $i ==="
     
     # Change to the desired workspace directory
-    cd /home/f8/Desktop/cpp_sublime || exit 1  # Adjust this path to match your Linux workspace
+    cd /home/f8/Desktop/dsa_c++ || exit 1  # Adjust this path to match your Linux workspace
 
     echo "Generating Test Cases..."
     ./generate  # Run the generate executable

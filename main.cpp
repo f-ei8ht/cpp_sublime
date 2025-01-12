@@ -1,10 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
- 
 int main() {
-	int a;
-	int b;
-	a = 3;b=4;
-	cout << a << b << endl;
-
+	int x;
+	cin >> n;
+	cout << n;
 }
